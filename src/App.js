@@ -20,7 +20,7 @@ function App() {
           <p className='p2'>So I started building projects.</p>
           <p className='p2'>Sometimes I make projects for fun, sometimes I'm serious about making profits.</p>
           <p className='p2' style={{marginBottom: '15vh'}}>Here's a list of what I did…</p>
-          <a href="https://github.com/kakimli/LeaseUW#readme" target="_blank">
+          <a href="https://github.com/kakimli/LeaseUW#readme" target="_blank" rel="noreferrer">
           <div className='project' style={{  borderTop: 'solid'}}>
             <div className='name'>Lease UW</div>
             <div className='intro'>
@@ -33,7 +33,7 @@ function App() {
             </div>
           </div>
           </a>
-          <a href="https://skypool.org" target="_blank">
+          <a href="https://skypool.org" target="_blank" rel="noreferrer">
           <div className='project'>
             <div className='name'>SKYPOOL.ORG</div>
             <div className='intro'>
