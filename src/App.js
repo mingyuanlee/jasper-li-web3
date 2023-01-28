@@ -11,7 +11,7 @@ function App() {
           Do you want me to join your team?
         </h2>
         
-          <h5 className='click' ><a href="#second-page">Click for more details</a></h5>
+          <h5 className='click' ><a style={{cursor: 'pointer'}} href="#second-page">Click for more details</a></h5>
         
       </div>
       <div className='second-page' id='second-page'>
@@ -46,10 +46,32 @@ function App() {
             </div>
           </div>
           </a>
+          <p className='about-sky'>
+            <a style={{cursor: 'pointer'}} href="#third-page">
+              Click for more about Skypool.org...
+            </a>
+          </p>
         </div>
-        
+        <div style={{height:"10vh"}}></div>
       </div>
-      <div style={{height:"20vh"}}></div>
+      <div className='third-page' style={{borderTop: "solid 1px black"}} id='third-page'>
+        <div className='con2'>
+          <p>Skypool.org is the website made by me for our team in 2021</p>
+          <br></br>
+          <br></br>
+          <h5 style={{fontSize:"1.5rem"}}>Features:</h5>
+          <br></br>
+          <h5>1. Real time data panel (blocks, hashrates, height...)</h5>
+          <p>We collect data from blockchain daemon (like ETC geth) and do real-time computation for users.</p>
+          <h5>2. Language system</h5>
+          <p>Users can view the website in English or Chinese.</p>
+          <h5>3. Personal account</h5>
+          <p>Users can add/remove wallets in the account page.</p>
+          <h5>4. Insite search engine</h5>
+          <p>Users can search by address to view rewards and personal data</p>
+        </div>
+      </div>
+      
     </div>
   );
 }
